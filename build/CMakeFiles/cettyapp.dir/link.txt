@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cettyapp.dir/main.cpp.o -o cettyapp  -Wl,-rpath,/usr/local/lib libcetty.a /usr/local/lib/libglog.so.0.6.0 

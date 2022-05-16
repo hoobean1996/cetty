@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcetty.a CMakeFiles/cetty.dir/main.cpp.o CMakeFiles/cetty.dir/src/EventLoop.cpp.o CMakeFiles/cetty.dir/src/Poller.cpp.o CMakeFiles/cetty.dir/src/Channel.cpp.o CMakeFiles/cetty.dir/src/Acceptor.cpp.o CMakeFiles/cetty.dir/src/Connection.cpp.o CMakeFiles/cetty.dir/src/Buffer.cpp.o CMakeFiles/cetty.dir/src/Server.cpp.o
+/usr/bin/ranlib libcetty.a

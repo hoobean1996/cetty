@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cetty"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\usr\;CMake Files\..\..\usr\local\;CMake Files\..\..\usr\local\lib\;CMake Files\..\..\usr\local\lib\cmake\;CMake Files\..\..\usr\local\lib\cmake\glog\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.BCTwdOK21V/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cetty">
+				<Option output="/tmp/tmp.BCTwdOK21V/cmake-build-debug/libcetty.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.BCTwdOK21V/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 cetty"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cetty/fast">
+				<Option output="/tmp/tmp.BCTwdOK21V/cmake-build-debug/libcetty.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.BCTwdOK21V/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 cetty/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cettyapp">
+				<Option output="/tmp/tmp.BCTwdOK21V/cmake-build-debug/cettyapp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.BCTwdOK21V/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLOG_CUSTOM_PREFIX_SUPPORT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 cettyapp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cettyapp/fast">
+				<Option output="/tmp/tmp.BCTwdOK21V/cmake-build-debug/cettyapp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.BCTwdOK21V/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLOG_CUSTOM_PREFIX_SUPPORT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 cettyapp/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.BCTwdOK21V/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.BCTwdOK21V/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.BCTwdOK21V/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/main.cpp">
+			<Option target="cetty"/>
+			<Option target="cettyapp"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Acceptor.cpp">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Acceptor.h">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Buffer.cpp">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Buffer.h">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Channel.cpp">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Channel.h">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Connection.cpp">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Connection.h">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/EventLoop.cpp">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/EventLoop.h">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Poller.cpp">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Poller.h">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Server.cpp">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/src/Server.h">
+			<Option target="cetty"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/../../usr/local/lib/cmake/glog/glog-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/../../usr/local/lib/cmake/glog/glog-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/../../usr/local/lib/cmake/glog/glog-modules.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/../../usr/local/lib/cmake/glog/glog-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.BCTwdOK21V/../../usr/local/lib/cmake/glog/glog-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

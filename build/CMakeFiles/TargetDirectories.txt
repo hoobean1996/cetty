@@ -1,0 +1,4 @@
+/tmp/tmp.BCTwdOK21V/build/CMakeFiles/cetty.dir
+/tmp/tmp.BCTwdOK21V/build/CMakeFiles/cettyapp.dir
+/tmp/tmp.BCTwdOK21V/build/CMakeFiles/edit_cache.dir
+/tmp/tmp.BCTwdOK21V/build/CMakeFiles/rebuild_cache.dir
